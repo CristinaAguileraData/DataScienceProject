@@ -111,7 +111,7 @@ class Activity(object):
 
 #SUBCLASSES of class_3 (subclasses of Activity)
 class Acquisition(Activity):
-    def __init__(self, institute:str, person:str, tool:str|set[str], start:str, end:str, refersTo:CulturalHeritageObject, technique:str): #has now its attributes and these inherited
+    def __init__(self, institute:str, person:str|None, tool:set[str], start:str|None, end:str|None, refersTo:CulturalHeritageObject, technique:str): #has now its attributes and these inherited
         self.technique= technique
         super().__init__(institute, person, tool, start, end, refersTo,)
 
