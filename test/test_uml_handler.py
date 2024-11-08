@@ -1,5 +1,5 @@
 import unittest 
-from uml_classes import IdentifiableEntity
+from myenv.uml_classes import IdentifiableEntity
 
 class TestIdentifiableEntity(unittest.TestCase):
     def test_getId(self):
