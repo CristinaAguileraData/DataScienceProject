@@ -18,7 +18,7 @@ class Person(IdentifiableEntity):
 
 #CSV
 
-#CLASS_1
+#CLASS_1 a
 class CulturalHeritageObject(IdentifiableEntity):
     def __init__(self, id:str, title:str, owner:str, place:str, hasAuthor:list[Person], date:str|None):# now has its own parameters + inherited + relationship has author
         self.title= title #title is mandatory
